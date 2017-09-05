@@ -15,30 +15,77 @@
       }
 
       .bg-2 {
-        background-color: #474e5d
+        background-color: #474e5d;
+        color: #ffffff;
       }
 
       .bg-3 {
-        background-color: #474e5d
+        background-color: #474e5d;
+        color: #ffffff;
+      }
+
+      .bg-4 {
+        background-color: #1abc9c;
+      }
+
+      .txt-col {
+        color: black;
+      }
+
+      .containerPad {
+        padding-top: 70px;
+        padding-bottom: 70px
       }
     </style>
 </head>
 
 <body>
-  <div class="container-fluid bg-1 text-center">
+  <div class="container-fluid containerPad bg-1 text-center">
     <h2> Who am I? </h2>
-    <img src="assets/images/profile.jpg" class="img-circle" alt="Profile Picture" width="400" height="400">
+    <img src="assets/images/profile.jpg" class="img-circle" alt="Profile Picture" width="250" height="250">
     <h3> I am Osaze Edo-Osagie </h3>
   </div>
+
   <div class="container-fluid bg-2 text-left">
-    <h3> What Am I </h3>
-    <h4> A Software Engineer graduate from the University of Hertfordshire with a masters in Management of IT, from the University
-      of Nottingham
-    </h4>
+    <div class="row">
+      <div class="col-sm-6">
+        <h4> What Am I </h4>
+        <h5> A Software Engineer graduate from the University of Hertfordshire with a masters in Management of IT, from the University
+          of Nottingham </h5>
+      </div>
+      <div class="col-sm-6">
+        <h4> Where to Find Me </h4>
+        <h5> I reside in Ikoyi, Lagos </h5>
+      </div>
+    </div>
   </div>
-  <div class="container-fluid bg-3 text-right">
-    <h3> Where to Find Me </h3>
-    <h4> I reside in Ikoyi, Lagos </h4>
+
+  <div class="container-fluid bg-1 containerPad text-center">
+    <div class="row">
+      <div class="col-sm-12">
+        <h4> About Me </h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <button type="button" class="btn btn-link btn-lg txt-col">Education</button>
+      </div>
+      <div class="col-sm-3">
+        <button type="button" class="btn btn-link btn-lg txt-col">Experience</button>
+      </div>
+      <div class="col-sm-3">
+        <button type="button" class="btn btn-link btn-lg txt-col">Skills</button>
+      </div>
+      <div class="col-sm-3">
+        <button type="button" class="btn btn-link btn-lg txt-col">Hobbies</button>
+      </div>
+    </div>
+    <div class="row text-left containerPad">
+      <div class="col-sm-12">
+        <h4> Education </h4>
+        <h5> blah blah blah </h5>
+      </div>
+    </div>
   </div>
 
 </body>
